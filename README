@@ -1,0 +1,22 @@
+Very Rough Video Editor, by Theo Watson
+Needs Love!
+
+Files:
+Put the movies in /bin/data/movies/  Note: You might need Perian to playback FLV files. 
+Make sure you have a frames/ folder in bin/data/ 
+
+Keys, 
+'e' to Edit the video clips in and out points. Use mouse position to scrub the play position.  
+'m' to Rearrange the order of the clips 
+'r' to randomize clip order
+'l' to load saved clip order
+'p' to play the video as it is
+'P' ( CAPS ) to render the video the the frames/ folder
+
+currently the frame time is fixes as a static value at the top of testApp.cpp 
+this could be made different per clip. 
+
+NOTE: when it is rendering out the video it renders it out slowly so as to not skip frames. 
+If you try to render it out at full speed then you will get skipped frames and an inconsistent fps. 
+
+To turn back into a movie import the frames/ folder as an image sequence into QuickimePro - make sure to use the FPS that is in the OF app. 
